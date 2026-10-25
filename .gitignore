@@ -1,2 +1,7 @@
 __pycache__/
 .vscode/
+
+# secrets
+.env
+*.env
+kaggle.json
