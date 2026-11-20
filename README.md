@@ -9,6 +9,10 @@ This repo is a record of the course work: Python, data analysis, machine learnin
 - [claude-skills](https://github.com/simonlivson/claude-skills) — reusable Claude Skills and Prompt Eval Lab
 - [tic-tac-toe](https://github.com/simonlivson/tic-tac-toe) — week 1 mini-project, also as a [Hugging Face Space](https://huggingface.co/spaces/SimonIL/tic-tac-toe)
 
+## Highlights
+
+- **Week 5 (deep learning)** — A CNN outperformed a dense network on MNIST (0.9873 vs. 0.9730) with fewer parameters. The LSTM stock model fell short of the naive baseline on next-day returns (R² = −0.07), and I report that result as measured.
+
 ## How the repo is organized
 
 Work is grouped by week and day, for example `Week4/Day3/`. Each day usually has Exercises XP and a Daily Challenge, and sometimes XP Gold or XP Ninja.
