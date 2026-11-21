@@ -1,0 +1,30 @@
+{
+    "dataset": "Dogs vs Cats (devtlv GitHub mirror)",
+    "image_height": 48,
+    "image_width": 48,
+    "batch_size": 32,
+    "subsample_size": 5000,
+    "train_size": 4000,
+    "val_size": 1000,
+    "test_size": 12500,
+    "seed": 1337,
+    "seed_val": 1337,
+    "architecture": "2x(Conv2D+MaxPool2D+Dropout) -> Flatten -> Dense(128, ReLU)+Dropout(0.5) -> Dense(1, Sigmoid)",
+    "conv_filters": [
+        32,
+        64
+    ],
+    "dense_units": 128,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "loss": "binary_crossentropy",
+    "callbacks": [
+        "EarlyStopping(monitor=val_loss, patience=3, restore_best_weights=True)",
+        "ReduceLROnPlateau(monitor=val_loss, factor=0.5, patience=2)"
+    ],
+    "epochs_trained_augmented": 12,
+    "epochs_trained_baseline": 12,
+    "final_threshold": 0.45000000000000007,
+    "model_path": "artifacts/cats_vs_dogs_cnn.keras",
+    "predictions_csv": "artifacts/test_predictions.csv"
+}

@@ -1,0 +1,64 @@
+{
+    "class_counts": {
+        "full_labeled_pool": 25000,
+        "subsample_total": 5000,
+        "subsample_cats": 2500,
+        "subsample_dogs": 2500,
+        "train_set_size": 4000,
+        "val_set_size": 1000,
+        "test_set_size": 12500
+    },
+    "fixed_8_epochs": {
+        "epochs": 8,
+        "final_train_loss": 0.6158357858657837,
+        "final_train_acc": 0.6582499742507935,
+        "final_val_loss": 0.5749292969703674,
+        "final_val_acc": 0.6859999895095825
+    },
+    "main_augmented_model": {
+        "epochs_trained": 12,
+        "best_epoch": 11,
+        "best_val_loss": 0.543173611164093,
+        "best_val_accuracy": 0.7260000109672546,
+        "final_train_loss": 0.5872336626052856,
+        "final_train_accuracy": 0.6862499713897705,
+        "generalization_gap": -0.03400003910064697
+    },
+    "baseline_model": {
+        "epochs_trained": 12,
+        "best_epoch": 9,
+        "best_val_loss": 0.5051240921020508,
+        "best_val_accuracy": 0.7699999809265137,
+        "final_train_loss": 0.34359726309776306,
+        "final_train_accuracy": 0.8634999990463257,
+        "generalization_gap": 0.09350001811981201
+    },
+    "validation_evaluation": {
+        "confusion_matrix": {
+            "true_cats": 368,
+            "false_dogs": 132,
+            "false_cats": 142,
+            "true_dogs": 358
+        },
+        "metrics_cat": {
+            "precision": 0.7215686274509804,
+            "recall": 0.736,
+            "f1": 0.7287128712871287
+        },
+        "metrics_dog": {
+            "precision": 0.7306122448979592,
+            "recall": 0.716,
+            "f1": 0.7232323232323232
+        },
+        "default_threshold": 0.5,
+        "optimal_threshold": 0.45000000000000007,
+        "final_threshold": 0.45000000000000007,
+        "default_f1": 0.7232323232323232,
+        "optimal_f1": 0.7390900649953575
+    },
+    "test_predictions": {
+        "total_predicted": 12500,
+        "predicted_cats": 5540,
+        "predicted_dogs": 6960
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "dataset": "IMDB (keras.datasets.imdb)",
+    "num_words": 10000,
+    "raw_splits": {
+        "total_train_samples": 25000,
+        "partial_train_samples": 15000,
+        "validation_samples": 10000,
+        "test_samples": 25000
+    },
+    "initial_20_epoch_run": {
+        "total_epochs": 20,
+        "optimal_epoch": 5,
+        "min_val_loss": 0.2810575067996979,
+        "val_acc_at_optimal_epoch": 0.8863000273704529,
+        "final_epoch_train_loss": 0.01869768090546131,
+        "final_epoch_train_acc": 0.9954666495323181,
+        "final_epoch_val_loss": 0.5679050087928772,
+        "final_epoch_val_acc": 0.8687000274658203
+    },
+    "retrained_full_model": {
+        "epochs_trained": 5,
+        "training_samples_used": 25000,
+        "test_loss": 0.3131345808506012,
+        "test_accuracy": 0.877560019493103
+    }
+}
