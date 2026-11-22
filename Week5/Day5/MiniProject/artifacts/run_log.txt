@@ -1,14 +1,14 @@
 === Cats vs Dogs CNN Training Run Log ===
-Timestamp:          2026-11-21 19:45:27
+Timestamp:          2026-11-22 15:48:22
 Python Version:     3.13.5
 TensorFlow Version: 2.21.0
 Platform:           Linux-6.12.113+-x86_64-with-glibc2.41
 Subsample Size:     5000 (Train: 4000, Val: 1000)
-Augmented Best Val Loss:     0.5432
-Augmented Best Val Accuracy: 0.7260
-Baseline Val Loss:           0.5051
-Baseline Val Accuracy:       0.7700
-Generalization Gap (Aug):    -0.0340
-Generalization Gap (Base):   0.0935
-Selected Decision Threshold: 0.45
+Augmented Best Val Loss:     0.5687
+Augmented Val Accuracy at Restored Epoch: 0.7190
+Baseline Val Loss:           0.5212
+Baseline Val Accuracy:       0.7460
+Generalization Gap (Aug):    -0.0055
+Generalization Gap (Base):   0.1283
+Selected Decision Threshold: 0.35
 Artifacts Exported Successfully.
